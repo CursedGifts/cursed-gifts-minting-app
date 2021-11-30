@@ -1,0 +1,89 @@
+/* Styles go here */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../montserrat.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Desdemona";
+    src: url("../Desdemona.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card-header {
+    vertical-align: middle;
+    height: 100px;
+}
+
+.minus {
+    width: 40px;
+    height: 40px;
+    background: #d9534f;
+    border-radius: 4px;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #ddd;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background: #5cb85c;
+    border-radius: 4px;
+    padding: 0px 3px 0px 3px;
+    border: 1px solid #ddd;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.input {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.costs {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cont {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mint {
+    font-family: "Desdemona", sans-serif;
+    font-size: 50px;
+    vertical-align: middle;
+    text-align: center;
+    color: #d9534f;
+}
+
+.img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
