@@ -74,7 +74,7 @@ class App extends Component {
     }
 
     increment = () => {
-        if (this.state.count == 5) {
+        if (this.state.count === 5) {
             console.log("Cannot be greater than 5")
         } else {
             this.setState({
@@ -85,7 +85,7 @@ class App extends Component {
     }
 
     decrement = () => {
-        if (this.state.count == 1) {
+        if (this.state.count === 1) {
             console.log("Cannot be lesser than 1")
         } else {
             this.setState({
@@ -98,7 +98,7 @@ class App extends Component {
     claimNFTs = () => {
         let cost = this.state.price;
         let mintAmount = this.state.count;
-        let gasLimit = 21000;
+        let gasLimit = 285000;
         let totalCost = String(cost * mintAmount);
         let totalGasLimit = String(gasLimit * mintAmount);
         let totalCostWei = this.state.web3.utils.toWei(totalCost)
